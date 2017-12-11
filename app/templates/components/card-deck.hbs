@@ -2,6 +2,6 @@
 
 <ul>
   {{#each cards as |card|}}
-    <li class=card>{{card}}</li>
+    <li class=card {{action "flipCard" card}}>{{card}}</li>
   {{/each}}
 </ul>
